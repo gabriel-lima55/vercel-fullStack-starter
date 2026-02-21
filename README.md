@@ -1,4 +1,4 @@
-# Fullstack Serverless Boilerplate (Vite + Express)
+# Fullstack Boilerplate Vercel (Vite + Express)
 
 Reusable fullstack template built with React (Vite) and Express, optimized for serverless deployment on Vercel.
 
@@ -23,12 +23,17 @@ Deployment:
 ## 📁 Project Structure
 
 /
-├── api/ # Serverless backend (Express)
-│ └── index.js
-├── src/ # Frontend (React)
+├── api/
+├── src/
 ├── public/
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
+├── index.html
+├── eslint.config.js
+├── .gitignore
+├── README.md
+├── LICENSE
 
 
 ---
