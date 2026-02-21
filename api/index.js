@@ -7,7 +7,9 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/", (req, res) => {
-  res.json({ message: "Servidor online 🚀" })
+  res.status(200).json({ message: "Servidor online 🚀" })
 })
 
-module.exports = app
+module.exports = (req, res) => {
+  return app(req, res)
+}
