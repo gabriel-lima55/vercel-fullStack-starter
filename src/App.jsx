@@ -11,7 +11,7 @@ function App() {
 
   return (
     /*Insira o nome de seu Projeto*/
-    <h1>NOME DO PROJETO</h1>
+    <h1>Vercel FullStack Starter</h1>
   )
 }
 
